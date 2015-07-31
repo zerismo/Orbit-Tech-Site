@@ -1390,6 +1390,12 @@ h1.typed-text {
   color: #4f82e9;
   border-color: #4f82e9; }
 
+.colored-boxed.yellow i {
+  color: #F1C40F;
+  border-color: #F1C40F; }
+
+
+
 .colored-boxed.dark i {
   color: #333;
   border-color: #333; }
