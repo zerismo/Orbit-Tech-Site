@@ -1511,7 +1511,19 @@ h3.heading-progress {
 
 /*news and blogs*/
 .news-desc {
-  padding: 15px 0; }
+  padding: 15px 0; 
+  color: #fff;
+}
+.news-desc :hover {
+  color: #fff;
+  font-weight: 600;
+}
+
+.news-desc a {
+  color: #fff;
+  /*font-weight: 600;*/
+}
+
 
 .news-desc h4 {
   margin: 0px;
@@ -5059,4 +5071,36 @@ section#contact .text-danger {
 
 .cbp-item a{
   cursor: pointer;
+}
+
+
+#faqs{
+  background-color: #2ecc71;
+  color:#000;
+}
+
+
+.center-heading2 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #fff; }
+
+.center-heading2 h2 {
+  margin-bottom: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  font-size: 30px; }
+
+.center-heading2 p {
+  font-size: 18px; }
+
+.center-heading2 h2 strong {
+  font-weight: 800; }
+
+.cbp-l-caption-title1{
+  padding:10px 0 10px 0;
+  color:#fff;
+  background-color: #888;
 }
