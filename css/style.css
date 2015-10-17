@@ -5104,3 +5104,11 @@ section#contact .text-danger {
   color:#fff;
   background-color: #888;
 }
+
+.vils{
+  cursor: pointer;
+}
+
+.vline{
+  border-left: thin solid #000;
+}
