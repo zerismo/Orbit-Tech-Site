@@ -5076,7 +5076,7 @@ section#contact .text-danger {
 
 #faqs{
   background-color: #2ecc71;
-  color:#000;
+  color:#fff;
 }
 
 
@@ -5107,8 +5107,28 @@ section#contact .text-danger {
 
 .vils{
   cursor: pointer;
+  color: #fff;
 }
 
 .vline{
   border-left: thin solid #000;
+}
+
+.team-img{
+  width: 200px;
+  height: auto;
+  border-radius: 70%;
+
+}
+
+.vilse{
+  display: none;
+  background-color: #f5f5f5;
+  padding:10px 10px 10px 10px;
+  color:#000;
+}
+
+.ulist{
+  text-align: left;
+  list-style-image: url("../img/favicon2.png");
 }

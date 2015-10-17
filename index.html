@@ -42,7 +42,7 @@
 
 
     </head>
-    <body>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <!--
         <div class="top-bar-dark">            
             <div class="container">
@@ -88,7 +88,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="img/orbit1.png" alt="ORBIT"></a>
+                    <a class="navbar-brand" href="#hometop"><img src="img/orbit1.png" alt="ORBIT"></a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -201,7 +201,7 @@
                              data-speed="500"
                              data-start="1800"
                              data-easing="Sine.easeOut">
-                            <a href="#products" class="btn border-white btn-lg">View features</a>
+                            <a href="#products" class="btn border-white btn-lg">View products</a>
                         </div>
                     </li>
                     <!-- SLIDE -->
@@ -361,10 +361,11 @@
                         <i class="fa fa-sun-o"></i>
                         <h3>Turnkey project solutions</h3>
                         <span class="center-line"></span>
-                        <br><li>Detailed location and engineering studies</li>
+                        <br><ul class="ulist">
+                        	<li>Detailed location and engineering studies</li>
                         	<li>Complete EPC services </li>
                         	<li>Minigrid and HSH solutions</li>
-
+                        	</ul>
                     </div>
                 </div><!--colored boxed col end-->
                 <div class="col-md-2 col-sm-6 margin30 wow animated fadeInDown" data-wow-delay="500ms">
@@ -372,15 +373,15 @@
                         <i class="fa fa-cogs"></i>
                         <h3>Operations and Maintenance</h3>
                         <span class="center-line"></span>
-                        <br><li>Complete online and offline monitoring systems are maintained by us
+                        <br><ul class="ulist"><li>Complete online and offline monitoring systems are maintained by us</li></ul>
                     </div>
                 </div><!--colored boxed col end-->
                 <div class="col-md-2 col-sm-6 margin30">
                     <div class="colored-boxed yellow wow animated fadeInUp" data-wow-delay="1000ms">
                         <i class="fa fa-rupee"></i>
-                        <h3>Financial Services</h3>
+                        <h3>Financial Services</h3><br>
                         <span class="center-line"></span>
-                        <br><li>We help finance your solar power needs through various agencies:IREDA,banks and investors. </li>
+                        <br><ul class="ulist"><li>We help finance your solar power needs through various agencies:IREDA,banks and investors. </li></ul>
                     </div>
                 </div><!--colored boxed col end-->
                 <div class="col-md-2 col-sm-6 margin30">
@@ -388,7 +389,7 @@
                         <i class="fa fa-building"></i>
                         <h3>On – grid applications</h3>
                         <span class="center-line"></span>
-                        <br><li>Intelligent solar hybrid power plant upto Megawatt scale </li>
+                        <br><ul class="ulist"><li>Intelligent solar hybrid power plant upto Megawatt scale </li></ul>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-6 margin30">
@@ -396,14 +397,15 @@
                         <i class="fa fa-sliders"></i>
                         <h3>Off – grid applications</h3>
                         <span class="center-line"></span>
-                        <br><li>Solar PV Rooftop Systems from 1kW to 100kW </li>
+                        <br><ul class="ulist"><li>Solar PV Rooftop Systems from 1kW to 100kW </li></ul>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-6 margin30">
                     <div class="colored-boxed yellow wow animated fadeInDown" data-wow-delay="2500ms">
                         <i class="fa fa-tree"></i>
-                        <h3>provision of green and modern energy services to all on a sustainable basis</h3>
+                        <h3>provision of green and modern energy</h3>
                         <span class="center-line"></span>
+                        <br><ul class="ulist"><li>Modern Energy Services on a Sustainable Basis</li></ul>
                     </div>
                 </div><!--colored boxed col end-->
             </div>
@@ -464,20 +466,6 @@
                                 <div class="cbp-l-caption-alignCenter">
                                     <div class="cbp-l-caption-body">
                                         <div class="cbp-l-caption-title1">Solar Street Lighting </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="cbp-item solar">
-                        <a class="cbp-caption cbp-lightbox" data-toggle="modal" data-target="#HomeModal">
-                            <div class="cbp-caption-defaultWrap">
-                                <img src="img/img (1).png" alt="">
-                            </div>
-                            <div class="cbp-caption-activeWrap1">
-                                <div class="cbp-l-caption-alignCenter">
-                                    <div class="cbp-l-caption-body">
-                                        <div class="cbp-l-caption-title1">Solar Home Lighting</div>
                                     </div>
                                 </div>
                             </div>
@@ -800,7 +788,7 @@
                 <div class="row">
                     <div class="col-sm-6 text-center">
                         <div class="person-v2">
-                            <img src="img/team-5.jpg" class="img-responsive" alt="">
+                            <img src="img/team-1.jpg" class="img-responsive team-img" alt="">
                             <div class="person-desc-v2">
                                 <h3>Akshat Jain</h3>
                                 <em>Co Founder</em>
@@ -816,7 +804,7 @@
                     </div><!--person col end-->
                     <div class="col-sm-6 text-center">
                         <div class="person-v2">
-                            <img src="img/team-6.jpg" class="img-responsive" alt="">
+                            <img src="img/team-2.jpg" class="img-responsive team-img" alt="">
                             <div class="person-desc-v2">
                                 <h3>Varun Sharma</h3>
                                 <em>Co Founder</em>
@@ -858,7 +846,7 @@
                 <div class="col-sm-4 margin30">
                     <div> 
                         <div class="news-desc">
-                            <h4><a class="vils" rel="faq2">Q.How much roof area(shade free) is required to install a rooftop solar PV system?</a></h4>
+                            <h4><div class="vils" rel="faq2">Q.How much roof area(shade free) is required to install a rooftop solar PV system?</div></h4>
                             
                         </div><!--news desc-->
                     </div> 
@@ -868,7 +856,7 @@
 
                     <div><!--news link--> 
                         <div class="news-desc">
-                            <h4><a class="vils" rel="faq3">Q.Is Solar Power cheaper than diesel/grid power?</a></h4>
+                            <h4><div class="vils" rel="faq3">Q.Is Solar Power cheaper than diesel/grid power?</div></h4>
                             
                         </div><!--news desc-->
                     </div> 
@@ -878,12 +866,30 @@
         </div><!--faqs-->
 </section>
 
-<section id = "faq1" class="vilse" style="display:none;background:#563867">
-Whether solar power can replace your diesel consumption entirely depends on a number of factors such as the the area of roof used, nature of the load, the extent of load shedding, etc. Reasons that supply of rooftop solar power is limited are
-1. Solar power is generated only during the daytime on non-rainy days 
-2. Higher starting currents required by heavy machinery may not be available through Solar power.
-3. Limited roof area reduces the capacity of solar PV plant that can be installed.
+<section id="faq1" class="vilse">
+<br><br>
+<div class="container">
+<h4>Q.Can Rooftop solar PV replace diesel entirely?</h4>
+Whether solar power can replace your diesel consumption entirely depends on a number of factors such as the the area of roof used, nature of the load, the extent of load shedding, etc. Reasons that supply of rooftop solar power is limited are:<br>
+1. Solar power is generated only during the daytime on non-rainy days <br>
+2. Higher starting currents required by heavy machinery may not be available through Solar power.<br>
+3. Limited roof area reduces the capacity of solar PV plant that can be installed.<br><br>
 Due to these reasons many energy consumers find that rooftop solar power may not support their entire load all the time. Solar power ideally acts in conjunction with diesel generators, taking up part of the load and saving, but not eliminating, the diesel expenditure.
+</div><br><br><hr>
+</section> 
+<section id="faq2" class="vilse">
+<br><br>
+<div class="container">
+<h4>Q.How much roof area(shade free) is required to install a rooftop solar PV system?</h4>
+The shade free area required by a rooftop PV plant depends on the efficiency of the solar panels. For example, to generate 2,000 watts from a 12%-efficient system, you need 200 square feet of roof area.
+</div><br><br><hr>
+</section> 
+<section id="faq3" class="vilse">
+<br><br>
+<div class="container">
+<h4>Q.Is Solar Power cheaper than diesel/grid power?</h4>
+Solar power is much cheaper than power from diesel generators. Solar PV generates power at a cost of about Rs. 4.5-5/KWh while diesel generates power at about Rs. 16/KWh. Whether solar is more expensive than grid power depends on your current tariff.
+</div><br><br><hr>
 </section>  
     <section id="contactus">
         <div class="divide40"></div>
@@ -897,7 +903,7 @@ Due to these reasons many energy consumers find that rooftop solar power may not
                 </div>
             </div>
             <div class="row">
-            	<div class="col-lg-4">
+            	<div class="col-lg-4" style="text-align:right;">
             		<br><br><Br>
 				    <h2>Request a Free Solar Consultation</h2>
 
@@ -905,7 +911,7 @@ We will call you to help us understand if your home is a good candidate for Sola
 
 Keep your energy bill handy, we'd love to know what your are spending and how much we can help you save.
 
-Fill out this form or reach us at<br> <b>+91 123123123</b>.
+Fill out this form or reach us at<br> <b>+91 9711117394</b>.
 				    </div>
 				 <div class="col-lg-2 vline"></div>
                 <div class="col-lg-6">
@@ -960,7 +966,6 @@ Fill out this form or reach us at<br> <b>+91 123123123</b>.
 				            <input type="radio" name="whysolar" value="environment" >Environment<br>
 				            <input type="radio" name="whysolar" value="costsavings" >Cost Saving<br>
 					        <input type="radio" name="whysolar" value="energyinde" >Energy Independence<br>
-							<input type="radio" name="whysolar" value="costsavings" >Earn Money<br>
 				            <div class="help-block with-errors"></div>
 				        </div>
 				       
@@ -1003,7 +1008,14 @@ employed for directly converting the solar energy into electrical energy by usin
 “Solar Silicon Cells”. The electricity generated from Solar can be utilized for
 different applications directly or through battery storage system.
 </p>
-<p><strong>OFF - GRID SOLAR POWER PLANTS</strong><br>
+<p><strong>ON - GRID SOLAR POWER PLANTS</strong><br>
+The grid- connected SPV system  is  a SPV system which  supplies the power generated by the SPV system to the grid . It has different components depending on the requirement of the system with which its associated . The main component is the inverter which converts DC into AC.The battery may or may not be present in the grid - connected SPV system.This system is also called ON-Grid or grid-interactive system beacuse this SPV system communicates with the grid power supply to match the phase and also to avoid the islanding situation .</p>
+
+<p>
+A grid -connected PV system essentially consists of the PV panels (modules), one or several solar inverters, a protections device for automatic shutdown in case of a grid breakdown and a counter for the fed in solar electricity
+The components of a grid-connected PV system include the PV modules, a power inverter, a safety device to power down at failures in the grid and an electricity meter. The "mains-commutated" inverter converts the direct current (DC) provided by the modules to alternating current (AC), simultaneously synchronizing the AC output to the AC in the grid.
+The power-generating capacity of a photovoltaic system is denoted in kilowatt peak (measured at standard test conditions and a solar irradiation of 1000 W per m²). Today's PV modules cover an area between 7 and 10 m² per kWp.
+</p>
 
         </div>
         <div class="modal-footer">
@@ -1073,7 +1085,7 @@ LED Cool Day Light - 70W</b></p>
           2. New Age Smart Inverter System powered by Sun<br>
           3. Making Grid Power Substitute to Solarix Smart Inverter System as compared to the current inverters which are a substitute to the Grid</p>
           <br>
-        	<img src = "img/capture4.jpg" style="width:570px;">     
+        	<a href="img/Capture4.jpg" target="_blank"><img src = "img/Capture4.jpg" class="img-responsive"style="width:570px;"> </a>   
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -1449,7 +1461,7 @@ transfers its higher temperature heat to the heating and hot water circuits of t
                                     89 , Nehru Place<br>
                                     New Delhi – 110019</p></li>
                                 <li><p><strong><i class="fa fa-envelope"></i> Mail Us:</strong> <a href="mailto:orbittechsolindia@gmail.com">orbittechsolindia@gmail.com</a></p></li>
-                                <li> <p><strong><i class="fa fa-phone"></i> Phone:</strong> +91 123123123</p></li>
+                                <li> <p><strong><i class="fa fa-phone"></i> Phone:</strong>+91 9711117394</p></li>
                             </ul>
                         </div>                        
                     </div><!--footer col-->
@@ -1473,7 +1485,7 @@ transfers its higher temperature heat to the heating and hot water circuits of t
                     </div>
                     <div class="col-md-6 col-sm-6 margin30">
                         <div class="footer-col">
-                        	<img src = "img/orbit.png" style="width=1000px;height:auto;position:absolute;right:0px;top:0px;opacity:0.1">
+                        	<img src = "img/orbit.png" style="width=1000px;height:auto;position:absolute;right:0px;top:0px;">
                         </div>                        
                     </div><!--footer col-->
 
@@ -1534,6 +1546,95 @@ $('a').click(function(){
 });
 
 
+</script>
+
+<script >
+/*$(function(){
+	$('.vils').on('click',function(){
+	var viltoshow = $(this).attr('rel');
+	var offset = 20;
+	if($(this).hasClass('activa')){
+		$('html, body').animate({
+				scrollTop: $("#faqs").offset().top + offset
+			}, 1000);
+
+		$(this).removeClass('activa');
+		$('.vilse.activa').slideToggle(200,function(){
+			$(this).removeClass('activa');
+
+		});
+		
+
+	}else{
+		$('html, body').animate({
+				scrollTop: $("#tag1").offset().top + offset
+			}, 1000);
+		if($('.vils').hasClass('activa')){
+		$('.vils.activa').removeClass('activa');
+		$(this).addClass('activa');
+	}else{
+		$(this).addClass('activa');
+	}
+		$('window').scroll(10);
+
+		if($('.vilse').hasClass('activa')){
+		$('.vilse.activa').slideToggle(200,function(){
+			$(this).removeClass('activa');
+			$('#'+viltoshow).slideToggle(200,function(){
+				$(this).addClass('activa');});
+		});
+	}
+		else
+		{
+			$('#'+viltoshow).slideToggle(200,function(){
+				$(this).addClass('activa');});
+
+		}
+
+
+
+	}});
+});*/
+	$('.vils').on('click',function(){
+		var viltoshow = $(this).attr('rel');
+		var offset = 20;
+		if($(this).hasClass('active1')){
+			$(this).removeClass('active1');
+			$('.vilse.active1').slideToggle(200,function(){
+				$(this).removeClass('active');
+			})
+		}else{
+			if($('.vils').hasClass('active1')){
+				$('.vils.active1').removeClass('active1');
+				$(this).addClass('active1');
+			}
+			else
+			{
+				$(this).addClass('active1');	
+
+			}
+			if($('.vilse').hasClass('active1')){
+		        $('.vilse.active1').slideToggle(200,function(){
+				$(this).removeClass('active1');
+				$('#'+viltoshow).slideToggle(200,function(){
+				$(this).addClass('active1');});
+		})
+		}
+		else
+		{
+			$('#'+viltoshow).slideToggle(200,function(){
+				$(this).addClass('active1');});
+
+		}
+
+		}
+	});
+</script>
+<script>
+$(".nav a").on("click", function(){
+   $(".nav").find(".active").removeClass("active");
+   $(this).parent().addClass("active");
+});
 </script>
 
 
@@ -1633,61 +1734,7 @@ $('form').goValidate();
         </script>
 
 
-
-
- <script >
-/*$(function(){
-	$('.vils').on('click',function(){
-	var viltoshow = $(this).attr('rel');
-	var offset = 20;
-	if($(this).hasClass('activa')){
-		$('html, body').animate({
-				scrollTop: $("#faqs").offset().top + offset
-			}, 1000);
-
-		$(this).removeClass('activa');
-		$('.vilse.activa').slideToggle(200,function(){
-			$(this).removeClass('activa');
-
-		});
-		
-
-	}else{
-		$('html, body').animate({
-				scrollTop: $("#tag1").offset().top + offset
-			}, 1000);
-		if($('.vils').hasClass('activa')){
-		$('.vils.activa').removeClass('activa');
-		$(this).addClass('activa');
-	}else{
-		$(this).addClass('activa');
-	}
-		$('window').scroll(10);
-
-		if($('.vilse').hasClass('activa')){
-		$('.vilse.activa').slideToggle(200,function(){
-			$(this).removeClass('activa');
-			$('#'+viltoshow).slideToggle(200,function(){
-				$(this).addClass('activa');});
-		});
-	}
-		else
-		{
-			$('#'+viltoshow).slideToggle(200,function(){
-				$(this).addClass('activa');});
-
-		}
-
-
-
-	}});
-});*/
-$(function(){
-$('.vils').onClick(function(){
-	$("#faq1").show(200);
-});
-});
-</script>
+ 
     </body>
 </html>
 
